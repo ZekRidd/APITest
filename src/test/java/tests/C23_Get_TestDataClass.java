@@ -34,7 +34,7 @@ public class C23_Get_TestDataClass extends BaseUrlJsonPlaceHolder {
         specJsonPlaceHolder.pathParams("pp1","posts","pp2","22");
 
         // 2- expected data olustur
-        JSONObject expectedData = TestDataJsonPlaceholder.responseBodyOlustur22();
+        JSONObject expectedData = TestDataJsonPlaceholder.jsonBodyOlustur22();
 
         // 3- request gonder ve donen response'i kaydet
 
